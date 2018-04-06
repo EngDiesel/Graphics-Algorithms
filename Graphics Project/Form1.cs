@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
@@ -223,13 +217,13 @@ namespace Graphics_Project
         private void btnDraw_Click(object sender, EventArgs e)
         {
            
-            // DDA((int) Xs.Value, (int)Ys.Value, (int)Xe.Value, (int)Ye.Value);
+            DDA(50,50,99,99);
 
-            // Bresenham((int)Xs.Value, (int)Ys.Value, (int)Xe.Value, (int)Ye.Value);
+            Bresenham(200,20,300,60);
 
-            //Circle(100, 100, 51);
+            Circle(100, 100, 51);
 
-            Ellipse(new Point(100, 100), 70, 70);
+            Ellipse(new Point(100, 100), 90, 70);
 
         }
 
